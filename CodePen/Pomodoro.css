@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #aaffaa;
+  }
+  
+  
+  .timer-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  #break-label, #session-label {
+    margin-bottom: 10px;
+  }
+  
+  
+  .btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  
+  #time-left {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  #time-left .minutes, #time-left .seconds {
+    display: inline-block;
+    width: 2ch;
+    text-align: right;
+    padding: 0 2px;
+  }
+  
+  #time-left .seconds {
+    font-family: monospace;
+  }
+  
+  
+  .start-stop-reset {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .start-stop-reset:hover {
+    background-color: #3e8e41;
+  }
+   
+  
+  .break-session-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .break-length-container, .session-length-container {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .break-length-container button:first-child, 
+  .session-length-container button:first-child {
+    margin-right: 10px;
+  }
+  
+  .break-length-container button:last-child, 
+  .session-length-container button:last-child {
+    margin-left: 10px;
+  } 
