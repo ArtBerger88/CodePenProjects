@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log(`Clicked: ${value}`);
       console.log(`Current Input: ${currentInput}`);
       console.log(`Expression: ${expression}`);
-
+//clear button
       if (value === "clear") {
         currentInput = "";
         expression = "";
@@ -43,15 +43,14 @@ document.addEventListener("DOMContentLoaded", function () {
           currentInput = "-" + currentInput;
           display.innerText = currentInput;
         }
-      }//Handling multiple operators 
+      } //Handling multiple operators 
       else if (isReplaceable && isReplacingOperator) {
         expression = expression.substring(0, expression.length - 1) + value;
         currentInput = value;
         display.innerText = expression;
        }
       
-      /**/
-      
+      //Handling decimal
       else if (value === ".") {
         if (!currentInput.includes(".")) {
           currentInput += value;
@@ -67,11 +66,9 @@ document.addEventListener("DOMContentLoaded", function () {
         display.innerText = currentInput;
       } 
 
-      console.log(`Updated Current Input: ${currentInput}`);
-      console.log(`Updated Expression: ${expression}\n`);
     });
   });
-
+//Equals
   document.getElementById("equals").addEventListener("click", function () {
     console.log(`Evaluating Expression: ${expression + currentInput}`);
     if (currentInput !== "") {
@@ -79,7 +76,6 @@ document.addEventListener("DOMContentLoaded", function () {
       expression = expression.replace(/[*][+]/g, "+");
       expression = expression.replace(/\-+/g, "-");
       expression = expression.replace(/\++/g, "+");
-      console.log("After Replacement:", expression);
       
       let result;
       try {
