@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+#title {
+    color: gold;
+    font-size: 50px;
+}
+
+#secondSvg {
+    background-color: #00aaFF;
+    border: 2px solid gold;
+}
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    color: gold;
+    background-color: #000000;
+}
+
+#legend {
+    font-size: 20px;
+    color: gold;
+    background-color: #000000;
+}
