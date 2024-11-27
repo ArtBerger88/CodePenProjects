@@ -8,3 +8,5 @@ CodePen coding projects for FCC(Free Code Camp.Org)
 -Bar Graph
 
 -Scatterplot Graph
+
+-Heat Map
