@@ -3,4 +3,8 @@
 
 -Pomodoro clock
 
-CodePen coding projects for FCC
+-Bar Graph
+
+-Scatterplot Graph
+
+CodePen coding projects for FCC(Free Code Camp.Org)
