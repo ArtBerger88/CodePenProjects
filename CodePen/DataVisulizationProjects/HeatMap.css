@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#thirdSvg {
+    background-color: #ffffff;
+    border: 2px solid gold;
+}
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    color: #000000;
+    background-color: #FFFFff;
+}
