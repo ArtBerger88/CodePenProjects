@@ -10,3 +10,5 @@ CodePen coding projects for FCC(Free Code Camp.Org)
 -Scatterplot Graph
 
 -Heat Map
+
+-Choropleth Map
