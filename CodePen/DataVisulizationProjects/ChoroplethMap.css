@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    background-color: #ffb300;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+svg {
+    background-color: #00aaff;
+}
+
+#sourceDiv, #source:hover {
+    color: #00aaff;
+    font-size: 25px;
+}
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: 1000px;
+    font-size: 27px;
+    color: purple;
+    background-color: #00aaff;
+    text-align: center;
+}
