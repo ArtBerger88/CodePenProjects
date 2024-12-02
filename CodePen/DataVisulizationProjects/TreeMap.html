@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TreeMap.css">
+    <title>Tree Map</title>
+</head>
+<body>
+    <h1 id="title">Video Game Sales</h1>
+    <h2 id="description">Top 100 video game sold</h2>
+    <svg id="fifthSvg">
+
+    </svg>
+    <div id="tooltip"></div>
+    <svg id="legend">
+        <g>
+            <rect x="1" y ="2" width="20" height="20"  fill="#8B9467" class="legend-item"></rect><text x="25" y ="18" width="40" height="20">2600</text>
+        </g>
+        <g>
+            <rect x="1" y ="25" width="20" height="20"  fill="#FF99CC" class="legend-item"></rect><text x="25" y ="40" width="40" height="20">Wii</text>
+        </g>
+        <g>
+            <rect x="1" y ="48" width="20" height="20"  fill="#663300" class="legend-item"></rect><text x="25" y ="63" width="40" height="20">NES</text>
+        </g>
+        <g>
+            <rect x="1" y ="71" width="20" height="20"  fill="#CCCC00" class="legend-item"></rect><text x="25" y ="85" width="40" height="20">GB</text>
+        </g>
+        <g>
+            <rect x="1" y ="93" width="20" height="20"  fill="#336699" class="legend-item"></rect><text x="25" y ="108" width="40" height="20">DS</text>
+        </g>
+        <g>
+            <rect x="1" y ="115" width="20" height="20"  fill="#CC3366" class="legend-item"></rect><text x="25" y ="131" width="40" height="20">X360</text>
+        </g>
+        <g>
+            <rect x="1" y ="137" width="20" height="20"  fill="#999999" class="legend-item"></rect><text x="25" y ="153" width="40" height="20">PS3</text>
+        </g>
+        <g>
+            <rect x="1" y ="159" width="20" height="20"  fill="#33CC33" class="legend-item"></rect><text x="25" y ="176" width="40" height="20">PS2</text>
+        </g>
+        <g>
+            <rect x="1" y ="182" width="20" height="20"  fill="#666699" class="legend-item"></rect><text x="25" y ="199" width="40" height="20">SNES</text>
+        </g>
+        <g>
+            <rect x="175" y ="2" width="20" height="20"  fill="#CC6633" class="legend-item"></rect><text x="200" y ="18" width="40" height="20">GBA</text>
+        </g>
+        <g>
+            <rect x="175" y ="25" width="20" height="20"  fill="#3399CC" class="legend-item"></rect><text x="200" y ="40" width="40" height="20">PS4</text>
+        </g>
+        <g>
+            <rect x="175" y ="48" width="20" height="20"  fill="#996633" class="legend-item"></rect><text x="200" y ="63" width="40" height="20">3DS</text>
+        </g>
+        <g>
+            <rect x="175" y ="71" width="20" height="20"  fill="#33CCCC" class="legend-item"></rect><text x="200" y ="85" width="40" height="20">N64</text>
+        </g>
+        <g>
+            <rect x="175" y ="93" width="20" height="20"  fill="#663366" class="legend-item"></rect><text x="200" y ="108" width="40" height="20">PS</text>
+        </g>
+        <g>
+            <rect x="175" y ="115" width="20" height="20"  fill="#CCCC66" class="legend-item"></rect><text x="200" y ="131" width="40" height="20">XB</text>
+        </g>
+        <g>
+            <rect x="175" y ="137" width="20" height="20"  fill="#666633" class="legend-item"></rect><text x="200" y ="153" width="40" height="20">PC</text>
+        </g>
+        <g>
+            <rect x="175" y ="159" width="20" height="20"  fill="#4488CC" class="legend-item"></rect><text x="200" y ="176" width="40" height="20">PSP</text>
+        </g>
+        <g>
+            <rect x="175" y ="182" width="20" height="20"  fill="#FF77aa" class="legend-item"></rect><text x="200" y ="199" width="40" height="20">XOne</text>
+        </g>
+    </svg>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="TreeMap.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
