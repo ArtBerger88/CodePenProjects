@@ -12,3 +12,5 @@ CodePen coding projects for FCC(Free Code Camp.Org)
 -Heat Map
 
 -Choropleth Map
+
+-Tree Map
